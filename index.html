@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMDB</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="homeWrapper">
+      <header class="header">
+        <section>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5977/5977585.png"
+            alt="logo"
+            class="main-logo"
+          />
+        </section>
+
+        <section class="right-section">
+          <div class="sub-right">
+            <form class="form">
+              <input
+                type="text"
+                name="title"
+                id="title"
+                placeholder="Search IMDB"
+              />
+              <button class="submit">Search</button>
+            </form>
+            <img
+              src="https://m.media-amazon.com/images/G/01/IMDbPro/images/IMDbPro_payments_2x.png"
+              alt="pro-logo"
+              class="pro-logo"
+            />
+            <div class="wish-list-wrapper">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/4689/4689880.png"
+                alt="wishlist"
+                class="wishlist"
+              />
+              <span class="wish-text">wishlist</span>
+            </div>
+            <span class="signin">Sign In</span>
+          </div>
+        </section>
+      </header>
+    </div>
+    <div class="movies"></div>
+    <div class="loading"><h1>Loading...</h1></div>
+    <script src="script.js"></script>
+  </body>
+</html>
