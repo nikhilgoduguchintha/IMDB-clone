@@ -12,6 +12,13 @@ form.addEventListener("submit", (e) => {
   getMovies();
 });
 
+// add refresh functionality
+const mainLogo = document.querySelector(".main-logo");
+mainLogo.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.location.reload();
+});
+
 const options = {
   method: "GET",
   headers: {
